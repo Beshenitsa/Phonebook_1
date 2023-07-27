@@ -10,7 +10,7 @@ def add_entry():
             break
         else:
             print("Wrong format. Please, input phone this way +7XXXXXXXXXX, or this way 8XXXXXXXXXX.")
-    with open("phonebook.txt", "a", encoding="utf-8") as file:
+    with open("phonebook.txt", "a", encoding="UTF-8") as file:
         file.write(f"{name},{phone_number}\n")
     print("Contact added.")
 
