@@ -1,8 +1,8 @@
 def edit_entry():
     name = input("Введите ФИО для редактирования записи: ")
-    with open("phonebook.txt", "r", encoding="utf-8") as file:
+    with open("phonebook.txt", "r", encoding="UTF-8") as file:
         lines = file.readlines()
-    with open("phonebook.txt", "w", encoding="utf-8") as file:
+    with open("phonebook.txt", "w", encoding="UTF-8") as file:
         file.write(lines[0])
         for line in lines[1:]:
             if name.lower() in line.lower():
