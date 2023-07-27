@@ -1,6 +1,6 @@
 def search_entry():
     keyword = input("INput a word to search with: ")
-    with open("phonebook.txt", "r", encoding="utf-8") as file:
+    with open("phonebook.txt", "r", encoding="UTF-8") as file:
         lines = file.readlines()
         found_entries = []
         for line in lines[1:]:
