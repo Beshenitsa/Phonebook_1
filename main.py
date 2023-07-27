@@ -7,13 +7,13 @@ from create_file import create_phonebook
 
 def run_phonebook():
     print("Menu:")
-    print("1. Contacts")
-    print("2. Add contact")
-    print("3. Delete contact")
-    print("4. Edit contact")
-    print("5. Find contact")
-    print("6. Create new contact")
-    print("0. Exit")
+    print("1. Contacts.")
+    print("2. Add contact.")
+    print("3. Delete contact.")
+    print("4. Edit contact.")
+    print("5. Find contact.")
+    print("6. Create new contact.")
+    print("0. Exit.")
     while True:    
         choice = input("Input the number: ")
 
